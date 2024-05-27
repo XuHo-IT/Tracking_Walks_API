@@ -1,0 +1,15 @@
+2024-05-22 21:36:32.510 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - null null
+2024-05-22 21:36:32.961 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - 200 null text/html;charset=utf-8 460.0199ms
+2024-05-22 21:36:33.169 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 21:36:33.169 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - null null
+2024-05-22 21:36:33.195 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 26.0836ms
+2024-05-22 21:36:33.266 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.2665ms
+2024-05-22 21:36:33.330 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - null null
+2024-05-22 21:36:33.585 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 254.7919ms
+2024-05-22 21:36:48.951 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Auth/login - application/json 58
+2024-05-22 21:36:49.114 +07:00 [INF] Executing endpoint 'NZWalk.API.Controllers.AuthController.Login (NZWalk.API)'
+2024-05-22 21:36:49.159 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NZWalk.API.Model.DTO.LoginRequestDTO) on controller NZWalk.API.Controllers.AuthController (NZWalk.API).
+2024-05-22 21:36:49.667 +07:00 [INF] Executing OkObjectResult, writing value of type 'NZWalk.API.Model.DTO.LoginResponseDTO'.
+2024-05-22 21:36:49.678 +07:00 [INF] Executed action NZWalk.API.Controllers.AuthController.Login (NZWalk.API) in 508.3182ms
+2024-05-22 21:36:49.680 +07:00 [INF] Executed endpoint 'NZWalk.API.Controllers.AuthController.Login (NZWalk.API)'
+2024-05-22 21:36:49.687 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Auth/login - 200 null application/json; charset=utf-8 735.8987ms

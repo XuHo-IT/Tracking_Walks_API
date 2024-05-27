@@ -1,0 +1,26 @@
+2024-05-23 09:44:18.975 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-23 09:44:19.715 +07:00 [INF] Now listening on: https://localhost:7196
+2024-05-23 09:44:19.718 +07:00 [INF] Now listening on: http://localhost:5113
+2024-05-23 09:44:19.723 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-23 09:44:19.725 +07:00 [INF] Hosting environment: Development
+2024-05-23 09:44:19.727 +07:00 [INF] Content root path: D:\C# Projects\NZWalk\NZWalk.API
+2024-05-23 09:44:24.196 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7196/api/regions - null null
+2024-05-23 09:44:25.754 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:44:25.762 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:44:25.780 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7196/api/regions - 401 0 null 1594.0538ms
+2024-05-23 09:44:29.811 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - null null
+2024-05-23 09:44:30.142 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - 200 null text/html;charset=utf-8 331.1605ms
+2024-05-23 09:44:30.161 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-23 09:44:30.176 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - null null
+2024-05-23 09:44:30.176 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 15.1015ms
+2024-05-23 09:44:30.264 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.4653ms
+2024-05-23 09:44:30.368 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - null null
+2024-05-23 09:44:30.576 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 208.9416ms
+2024-05-23 09:44:47.047 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7196/api/Auth/login - application/json 58
+2024-05-23 09:44:47.062 +07:00 [INF] Executing endpoint 'NZWalk.API.Controllers.AuthController.Login (NZWalk.API)'
+2024-05-23 09:44:47.103 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NZWalk.API.Model.DTO.LoginRequestDTO) on controller NZWalk.API.Controllers.AuthController (NZWalk.API).
+2024-05-23 09:44:48.143 +07:00 [INF] Executing OkObjectResult, writing value of type 'NZWalk.API.Model.DTO.LoginResponseDTO'.
+2024-05-23 09:44:48.158 +07:00 [INF] Executed action NZWalk.API.Controllers.AuthController.Login (NZWalk.API) in 1042.3443ms
+2024-05-23 09:44:48.161 +07:00 [INF] Executed endpoint 'NZWalk.API.Controllers.AuthController.Login (NZWalk.API)'
+2024-05-23 09:44:48.167 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7196/api/Auth/login - 200 null application/json; charset=utf-8 1120.3881ms

@@ -1,0 +1,44 @@
+2024-05-23 09:54:09.724 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-23 09:54:10.345 +07:00 [INF] Now listening on: https://localhost:7196
+2024-05-23 09:54:10.347 +07:00 [INF] Now listening on: http://localhost:5113
+2024-05-23 09:54:10.353 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-23 09:54:10.356 +07:00 [INF] Hosting environment: Development
+2024-05-23 09:54:10.358 +07:00 [INF] Content root path: D:\C# Projects\NZWalk\NZWalk.API
+2024-05-23 09:54:13.677 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7196/api/regions - null null
+2024-05-23 09:54:13.874 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:54:13.881 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:54:13.898 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7196/api/regions - 401 0 null 229.0967ms
+2024-05-23 09:54:17.214 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7196/api/regions - null null
+2024-05-23 09:54:17.227 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:54:17.229 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:54:17.232 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7196/api/regions - 401 0 null 17.4759ms
+2024-05-23 09:54:17.911 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7196/api/regions - null null
+2024-05-23 09:54:17.921 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:54:17.923 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:54:17.925 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7196/api/regions - 401 0 null 13.8417ms
+2024-05-23 09:54:20.625 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7196/api/regions - null null
+2024-05-23 09:54:20.633 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:54:20.634 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:54:20.636 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7196/api/regions - 401 0 null 11.1606ms
+2024-05-23 09:54:34.255 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7196/api/regions - null null
+2024-05-23 09:54:34.261 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:54:34.263 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:54:34.266 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7196/api/regions - 401 0 null 10.8016ms
+2024-05-23 09:54:40.645 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/index.html - null null
+2024-05-23 09:54:40.947 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/index.html - 200 null text/html;charset=utf-8 302.7816ms
+2024-05-23 09:54:40.955 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - null null
+2024-05-23 09:54:40.962 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-23 09:54:40.991 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 30.0524ms
+2024-05-23 09:54:41.037 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.5191ms
+2024-05-23 09:54:41.133 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - null null
+2024-05-23 09:54:41.394 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 261.6166ms
+2024-05-23 09:54:46.883 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Regions - null null
+2024-05-23 09:54:46.888 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:54:46.891 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:54:46.894 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Regions - 401 0 null 10.6979ms

@@ -1,0 +1,10 @@
+2024-05-23 09:55:42.832 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Regions - null null
+2024-05-23 09:55:42.852 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:55:42.855 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:55:42.857 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Regions - 401 0 null 25.312ms
+2024-05-23 09:55:43.461 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/api/Regions - null null
+2024-05-23 09:55:43.467 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-23 09:55:43.469 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-23 09:55:43.471 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/api/Regions - 401 0 null 10.4825ms

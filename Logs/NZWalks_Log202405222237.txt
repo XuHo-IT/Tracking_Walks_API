@@ -1,0 +1,6 @@
+2024-05-22 22:37:22.002 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-22 22:37:22.019 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/_vs/browserLink - null null
+2024-05-22 22:37:22.037 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 36.1061ms
+2024-05-22 22:37:22.092 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.8313ms
+2024-05-22 22:37:22.194 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - null null
+2024-05-22 22:37:22.213 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7196/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.4104ms
